@@ -4,6 +4,7 @@
  * @date 2025-12-02
  * @fileoverview created a program to tell you how much change you have
  */
+//variables
 let total = 163
 
 let toonie = Math.floor(total / 200);
@@ -21,6 +22,7 @@ total = total % 10
 let nickel = Math.floor(total / 5);
 total = total % 5
 
+//output
 console.log(`your leftover change is: ${toonie} toonies, ${loonie} loonies, ${quarter} quarters, ${dime} dimes, and ${nickel} nickels`)
 
 console.log("\nDone");
